@@ -1,5 +1,5 @@
-#include <iostream>
-// Sums all elements from a given array 
+// Function that sums all elements from a given array 
+
 int array_sum(int array[], int n)
 {
     if (n < 1) {
@@ -9,9 +9,8 @@ int array_sum(int array[], int n)
     } 
     int total = 0;
     for (int i = 0; i < n; i++) {
-        if (array[i] > 0) {
+
             total += array[i];
-        }
         
     } return total;
    
