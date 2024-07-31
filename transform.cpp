@@ -3,12 +3,13 @@
 #include <string>
 using namespace std;
 
-int main() {
-int numberDec = 75;
+// function signature
+
+string transform (int numberDec){
+
 int modulo = 0;
 string numStringRev;
 string finalBinString;
-
 
 
 while (numberDec > 0 ) {
@@ -31,5 +32,27 @@ for (int i = numRevLenght - 1; i >= 0; --i) {
         finalBinString += numStringRev[i];
     }
     cout << "final bin number: " << finalBinString << endl; // printing final binary number represented in a string
+
+    return finalBinString;
+
+}
+
+int main() {
+
+int decimal = 0;
+string binaryNum;
+
+    cout <<"Please enter decimal number to transform into binary: ";
+    cin >> decimal;
+
+    binaryNum = transform (decimal);
+
+
+
+
+
+
+
+
 
 }
