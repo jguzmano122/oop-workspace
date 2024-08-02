@@ -20,6 +20,9 @@ using namespace std;
 // Function signature to find max
 int array_max(int integers[], int length){
     int max = integers[0];
+    if (length <= 0) {
+        return -1;
+    } else {
 
     for (int i = 1; i < length; i++){
 
@@ -28,22 +31,23 @@ int array_max(int integers[], int length){
             max = integers[i];
         }
     }  
-        return max;
+       
+} return max;
 }
 
 // Function signature to find sum 
 int sum_min_max(int integers[], int length){
     int sum = 0;
     if (length <= 0) {
-        sum = -1;
+        return -1;
     } else {
     int min = array_min(integers, length);
     int max = array_max (integers, length);
-    
+    if (min == -1 || max == -1) {
+        return -1; 
+    }
     sum = min + max;
-
-    cout << sum << endl;
-    
+  
 
     } return sum;
    }

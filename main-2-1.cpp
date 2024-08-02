@@ -2,12 +2,12 @@
 #include <iostream> 
 using namespace std;
 
-extern void print_binay_str(std::string decimal_number);
+extern void print_binary_str(std::string decimal_number);
 
 int main() {
 
-    string decimalStr  = "57";
-    print_binay_str (decimalStr);
+    std::string decimalStr  = "57";
+    print_binary_str(decimalStr);
 
     return 0;
 

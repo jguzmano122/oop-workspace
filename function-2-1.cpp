@@ -3,7 +3,7 @@
 using namespace std;
 
 // Function signature
-void print_binay_str(std::string decimal_number){
+void print_binary_str(std::string decimal_number){
 
 int numberDec = stoi(decimal_number);   //converting string to dec
 int modulo = 0;
