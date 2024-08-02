@@ -3,15 +3,15 @@
 using namespace std;
 
 
-extern void count_digits(int array[5][5]); 
+extern void count_digits(int array[4][4]); 
 
 int main(){
 
-   int array [5][5] = {{3, 1, 4, 6, 5},
-                    {7, 0, 2, 9, 8},
-                    {5, 2, 6, 3, 1},
-                    {0, 4, 7, 8, 2},
-                    {9, 3, 5, 1, 6}
+   int array [4][4] = {{3, 1, 4, 6},
+                    {0, 2, 9, 8},
+                    {2, 6, 3, 1},
+                    {4, 7, 8, 2},
+                    
     };
 
 
