@@ -15,7 +15,6 @@ for (int i = number_of_digits -1; i >=0; i--) {
     if (binary_digits[i] == 1) {
     sum += (pow (2, exponent));
     
-    
     }
     exponent ++; 
 
