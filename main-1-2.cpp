@@ -5,6 +5,7 @@
 extern double array_mean(int[], int);
 
 int main() {
-    int array[] = {};
-    std::cout << "The average of the array's elements is: " << static_cast<float> (array_mean(array, 0)) << std::endl;
+    int array[3] = {10, 0, 0};
+    double average = (array_mean(array, 3));
+    std::cout << "The average of the array's elements is: " << average  << std::endl;
 }
