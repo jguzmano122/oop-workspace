@@ -42,7 +42,7 @@ return max;
     // Part 5
 double* dynamicArray(int N){  //function declaration 
 
-double* arrayDym = new double [N]; // creates an array with N elements: 'Dynamic array'
+    double* arrayDym = new double [N]; // creates an array with N elements: 'Dynamic array'
     
     for (int i = 0; i < N; i++){
 
@@ -53,15 +53,12 @@ double* arrayDym = new double [N]; // creates an array with N elements: 'Dynamic
     return arrayDym;
 
 
-
-
-
  // Part 6
 
 
 
 
- 
+
 }
 
 

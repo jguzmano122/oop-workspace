@@ -41,10 +41,10 @@ max = arrayMax(arrayPtr, size);
 
     // Part 5
     cout << "Part 5: " << endl;
-int N = 6;
+//int N = 6;
 double *arrayD; 
 
-arrayD = dynamicArray(N);
+arrayD = dynamicArray(6);
 
 delete arrayD;
 
