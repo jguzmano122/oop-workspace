@@ -39,12 +39,29 @@ return max;
 
 }
 
-//     // Part 5
-// double* dynamicArray(int N){
+    // Part 5
+double* dynamicArray(int N){  //function declaration 
+
+double* arrayDym = new double [N]; // creates an array with N elements: 'Dynamic array'
+    
+    for (int i = 0; i < N; i++){
+
+        arrayDym[i] = i + 0.2;
+        cout << "arrayDym[" << i << "] = " << arrayDym[i]  << endl;
+    }
+    
+    return arrayDym;
 
 
 
 
-// }
+
+ // Part 6
+
+
+
+
+ 
+}
 
 
