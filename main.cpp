@@ -42,7 +42,9 @@ max = arrayMax(arrayPtr, size);
     // Part 5
     cout << "Part 5: " << endl;
 int N = 6;
-double *arrayD = dynamicArray(N);
+double *arrayD; 
+
+arrayD = dynamicArray(N);
 
 delete arrayD;
 
