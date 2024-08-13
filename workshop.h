@@ -53,7 +53,22 @@ double* dynamicArray(int N){  //function declaration
     return arrayDym;
 
 
- // Part 6
+ // Getting this error in Gradescope: All files found, +1 marks.
+// Successfully compiled program.out with files main.cpp. +1 marks
+// program.out failed to compile using files source/test-1-1.cpp
+// Compiler stdout:
+
+// -------
+// Compiler stderr:
+// source/test-1-1.cpp: In function ‘int main()’:
+// source/test-1-1.cpp:25:55: error: too many arguments to function ‘double* dynamicArray(int)’
+//      double* dynArr = dynamicArray(arraySize, initValue);
+//                                                        ^
+// In file included from source/test-1-1.cpp:2:0:
+// source/workshop.h:43:9: note: declared here
+//  double* dynamicArray(int N){  //function declaration
+//          ^~~~~~~~~~~~
+
 
 
 
