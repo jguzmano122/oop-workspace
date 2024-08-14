@@ -6,9 +6,12 @@ int *readNumbers() {
 
     int * userNums = new int [10]; // dynamic array with size 10
 
+   
+         //cout << "enter 10 numbers: ";
+         
         for (int i = 0; i < 10; i++){
 
-        cout << "enter a number: ";
+       
         cin >> userNums[i];
 
         }
@@ -18,13 +21,13 @@ int *readNumbers() {
 
 }
 
-    // Function 2
+ 
+     // Function 2
 void printNumbers(int *numbers, int length) {
 
 if (length < 0){
     cout << "array must have at least one element" << endl;
 } else {
-
     for (int j = 0; j < length; j ++){
 
     cout << j << " "<<  numbers[j] << endl;
@@ -36,101 +39,100 @@ if (length < 0){
 
 void hexDigits(int *numbers, int length) {
 
-    char * numbersHex = new char [length];
+    int * numbersArr = new int [length];
 
    for (int i =0; i < length; i++){
     switch (numbers[i]) {
 
       case 1:  
 
-         numbersHex[i] = '1';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 1;
+         cout << i << " " << numbersArr[i] << " 1" << endl;
          break;
       
       case 2:  
 
-         numbersHex[i] = '2';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 2;
+          cout << i << " " << numbersArr[i] << " 2" << endl;
          break;
 
       case 3:  
 
-         numbersHex[i] = '3';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 3;
+         cout << i << " " << numbersArr[i] << " 3" << endl;
          break;
 
       case 4:  
 
-         numbersHex[i] = '4';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 4;
+         cout << i << " " << numbersArr[i] << " 4" << endl;
          break;
 
       case 5:  
 
-         numbersHex[i] = '5';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 5;
+         cout << i << " " << numbersArr[i] << " 5" << endl;
          break;
 
       case 6:  
 
-         numbersHex[i] = '6';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 6;
+         cout << i << " " << numbersArr[i] << " 6" << endl;
          break;
 
       case 7:  
 
-         numbersHex[i] = '7';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 7;
+         cout << i << " " << numbersArr[i] << " 7" << endl;
          break;
 
       case 8:  
 
-         numbersHex[i] = '8';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 8;
+         cout << i << " " << numbersArr[i] << " 8" << endl;
          break;
 
 
       case 9:  
 
-         numbersHex[i] = '9';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 9;
+         cout << i << " " << numbersArr[i] << " 9" << endl;
          break;
 
       case 10:  
 
-         numbersHex[i] = 'A';
-         cout << numbersHex[i] << endl;
-         break;
+         numbersArr[i] = 10;
+         cout << i << " " << numbersArr[i] << " A" << endl;
 
          
       case 11:  
 
-         numbersHex[i] = 'B';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 11;
+         cout << i << " " << numbersArr[i] << " B" << endl;
          break;
 
       case 12:  
 
-         numbersHex[i] = 'C';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 12;
+         cout << i << " " << numbersArr[i] << " C" << endl;
          break;
 
       case 13:  
 
-         numbersHex[i] = 'D';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 13;
+         cout << i << " " << numbersArr[i] << " D" << endl;
          break;
 
       case 14:  
 
-         numbersHex[i] = 'E';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 14;
+         cout << i << " " << numbersArr[i] << " E" << endl;
          break;
 
       case 15:  
 
-         numbersHex[i] = 'F';
-         cout << numbersHex[i] << endl;
+         numbersArr[i] = 15;
+         cout << i << " " << numbersArr[i] << " F" << endl;
          break;
 
       default:
@@ -140,6 +142,8 @@ void hexDigits(int *numbers, int length) {
       }
       
    }
-   delete[] numbersHex;
+   delete[] numbersArr;
 
 }
+
+
