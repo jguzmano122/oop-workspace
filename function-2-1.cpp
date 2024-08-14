@@ -47,92 +47,92 @@ void hexDigits(int *numbers, int length) {
       case 1:  
 
          numbersArr[i] = 1;
-         cout << i << " " << numbersArr[i] << " 1" << endl;
+         cout << i << " " << numbersArr[i] << " " << "1" << endl;
          break;
       
       case 2:  
 
          numbersArr[i] = 2;
-          cout << i << " " << numbersArr[i] << " 2" << endl;
+          cout << i << " " << numbersArr[i] << " " << "2" << endl;
          break;
 
       case 3:  
 
          numbersArr[i] = 3;
-         cout << i << " " << numbersArr[i] << " 3" << endl;
+         cout << i << " " << numbersArr[i] << " " << "3" << endl;
          break;
 
       case 4:  
 
          numbersArr[i] = 4;
-         cout << i << " " << numbersArr[i] << " 4" << endl;
+         cout << i << " " << numbersArr[i] << " " << "4" << endl;
          break;
 
       case 5:  
 
          numbersArr[i] = 5;
-         cout << i << " " << numbersArr[i] << " 5" << endl;
+         cout << i << " " << numbersArr[i] << " " << "5" << endl;
          break;
 
       case 6:  
 
          numbersArr[i] = 6;
-         cout << i << " " << numbersArr[i] << " 6" << endl;
+         cout << i << " " << numbersArr[i] << " " << "6" << endl;
          break;
 
       case 7:  
 
          numbersArr[i] = 7;
-         cout << i << " " << numbersArr[i] << " 7" << endl;
+         cout << i << " " << numbersArr[i] << " " << "7" << endl;
          break;
 
       case 8:  
 
          numbersArr[i] = 8;
-         cout << i << " " << numbersArr[i] << " 8" << endl;
+         cout << i << " " << numbersArr[i] << " " << "8" << endl;
          break;
 
 
       case 9:  
 
          numbersArr[i] = 9;
-         cout << i << " " << numbersArr[i] << " 9" << endl;
+         cout << i << " " << numbersArr[i] << " " << "9" << endl;
          break;
 
       case 10:  
 
          numbersArr[i] = 10;
-         cout << i << " " << numbersArr[i] << " A" << endl;
+         cout << i << " " << numbersArr[i] << " " << "A" << endl;
 
          
       case 11:  
 
          numbersArr[i] = 11;
-         cout << i << " " << numbersArr[i] << " B" << endl;
+         cout << i << " " << numbersArr[i] << " " << "B" << endl;
          break;
 
       case 12:  
 
          numbersArr[i] = 12;
-         cout << i << " " << numbersArr[i] << " C" << endl;
+         cout << i << " " << numbersArr[i] << " " << "C" << endl;
          break;
 
       case 13:  
 
          numbersArr[i] = 13;
-         cout << i << " " << numbersArr[i] << " D" << endl;
+         cout << i << " " << numbersArr[i] << " " << "D" << endl;
          break;
 
       case 14:  
 
          numbersArr[i] = 14;
-         cout << i << " " << numbersArr[i] << " E" << endl;
+         cout << i << " " << numbersArr[i] << " " << "E" << endl;
          break;
 
       case 15:  
 
          numbersArr[i] = 15;
-         cout << i << " " << numbersArr[i] << " F" << endl;
+         cout << i << " " << numbersArr[i] << " " << "F" << endl;
          break;
 
       default:
