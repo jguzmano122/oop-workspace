@@ -8,16 +8,23 @@ struct Person {
     string name;
     int age;
 
+        // Default constructor
+    Person() : name(""), age(0) {}
+        // another Constructor
     Person (string p_name, int p_age){
     
         name = p_name;
         age = p_age;
 
-        //cout << p_name << p_age << endl;
+        cout << p_name << " " << p_age << endl;
 
     } 
-    // Default constructor
-    Person() : name(""), age(0) {}
+   
+};
+
+struct PersonList {
+    Person* people;
+    int numPeople;
 };
 
 #endif
