@@ -16,15 +16,17 @@ struct Person {
         name = p_name;
         age = p_age;
 
-        cout << p_name << " " << p_age << endl;
+      //  cout << p_name << " " << p_age << endl;
 
     } 
    
 };
 
 struct PersonList {
-    Person* people;
-    int numPeople;
+    Person* people;  // this is a pointer to an array of Struct type Person: 
+    int numPeople;  // number of Person elements of the array
+
+
 };
 
 #endif
