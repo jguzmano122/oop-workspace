@@ -1,22 +1,23 @@
-#include<iostream>
+#include <iostream>
+#include <string>
+#include "Person.h"
+
 using namespace std;
 
-    // Function 1
-int *readNumbers() { // returs pointer to the array 'numbers'
 
-    int * userNums = new int [10]; // dynamic array with size 10
+    Person* createPersonArray(int n) {
 
-         //cout << "enter 10 numbers: ";
-         
-        for (int i = 0; i < 10; i++){
+        Person * pArr = new Person [n]; // here function calls Person's default Construnctor
 
-       
-        cin >> userNums[i];
+         for (int i = 0; i < n; i++)
+        {
 
-        }
+        pArr [i] = Person ("John Doe", 0);    // here function calls Person's second Construnctor
 
-        return userNums;
+
+    }
+     return pArr;
+
 
 
 }
-
