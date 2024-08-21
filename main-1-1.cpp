@@ -10,7 +10,7 @@ int main(){
 
     //Person person1 ("Pedro", 20);
 
-        int n = 5;
+        int n = 10;
         Person * personArr = createPersonArray (n);
 
      delete[] personArr; // Deallocate the array
