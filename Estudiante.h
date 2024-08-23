@@ -13,6 +13,8 @@ class Estudiante{
 
     public: //  atributos publicos para que se cambien desde el exterior
 
+    // CONSTRUCTORS: used to initialised Class' data members, otherwise when we create an object of this Class it will populate its 
+    // data members with rubbish   
         // ** Constructors: here declaring Constructors and 'later' definition
         // Constructor used to determine behaviour(s) we went for this Object
     Estudiante (); // this could be the default constructor when nothing is passed to avoid error and rubbish assigned
