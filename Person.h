@@ -28,6 +28,7 @@ struct Person {
    
 };
 
+    // declaring this Struct of PersonList which has data members size, 'n' and and a pointer to an array of Person's 
 struct PersonList {
     Person* people;  // this is a pointer to an array of Struct type Person: 
     int numPeople;  // number of Person elements of the array

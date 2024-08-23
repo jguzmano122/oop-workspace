@@ -9,7 +9,8 @@ using namespace std;
 
 int main(){
 
-    PersonList pList = createPersonList(6);
+    int size = 7;
+    PersonList pList = createPersonList(size);
 
     return 0;
 }
