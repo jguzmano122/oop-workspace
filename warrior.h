@@ -20,6 +20,9 @@ class Warrior : public Player {
         //3) Functions *** to be difined
         void swingWeapon (Player * opponent) {
 
+            opponent -> takeDamage(damage);
+
+            cout << name << " swings their " << weapon << " at " << opponent->getName() << "!\n";
         }
 
          string getWeapon () {

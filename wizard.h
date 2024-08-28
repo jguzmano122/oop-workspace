@@ -10,7 +10,7 @@ using namespace std;
     // 1) Class declaration 
 class Wizard : public Player {
 
-    // 1.1) private' data members
+    // 1.1) 'private' data members
     private:
         int mana; 
     
@@ -23,6 +23,11 @@ class Wizard : public Player {
 
         // 3) Functions *** to be difined
         void castSpell (Player * opponent) {
+
+            int damageWiz = mana;
+            opponent->takeDamage(damageWiz);
+
+            cout << name << " casts a spell on " << opponent->getName() << " for " << damage << " damage.\n";
 
         }
 
