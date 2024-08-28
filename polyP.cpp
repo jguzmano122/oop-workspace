@@ -25,7 +25,7 @@ class A {
             //void print() {
         
         // 15) adding 'virtual' keyword so we tell the compiler Not to do "Static Binding", so use instead
-            //"" Dyanmic Binding" which is decide what "function" definition (or other method) to use based on the calling object
+            //"Dyanmic Binding" which is decide what "function" definition (or other method) to use based on the calling object
         virtual void print() {
             cout << "S = " << this -> _s << endl; 
         
@@ -45,6 +45,8 @@ class B : public A {
         
         // 7) another Constructor to initialise B's data member to '0'
         B() : B (0, 1.5) {}
+        
+        // 7.1 Overriding function from Class A
         void print() {
             
             cout << "S = " << this -> _s << " K = " << this -> _k << endl; 
