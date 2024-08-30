@@ -18,7 +18,9 @@ Vehicle :: Vehicle () {
 
     }
     // 2)
-Vehicle :: Vehicle (int v_ID) : ID (v_ID) {}
+Vehicle :: Vehicle (int v_ID) : ID (v_ID) {
+    timeOfEntry = (time(nullptr));
+}
 
     // 3)
 int Vehicle :: getID() {

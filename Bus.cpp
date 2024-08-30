@@ -17,6 +17,6 @@ int Bus :: getParkingDuration ()
     // cout << "entry time: " << entryTime << endl;
     // cout << "parking time: " << parkingTime << " seconds" << endl;
     //cout << "Bus reduced time (25%): " << reducedTime << " seconds" << endl;
-    cout << "Bus parking duration: " << reducedTime <<  " seconds" << endl;
+    //cout << "Bus parking duration: " << reducedTime <<  " seconds" << endl;
     return reducedTime;    
 }    
