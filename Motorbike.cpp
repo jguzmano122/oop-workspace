@@ -16,7 +16,7 @@ int Motorbike :: getParkingDuration (){
 
     // cout << "entry time: " << entryTime << endl;
     // cout << "parking time: " << parkingTime << " seconds" << endl;
-    cout << "Motorbike reduced time (15%): " << reducedTime << " seconds" << endl;
-    
+    //cout << "Motorbike reduced time (15%): " << reducedTime << " seconds" << endl;
+    cout << parkingTime << endl;
     return parkingTime;    
 }    
