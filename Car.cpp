@@ -10,7 +10,7 @@ using namespace std;
 int Car :: getParkingDuration () {
 
     time_t entryTime = getET();
-    time_t parkingTime = (time(nullptr)) - entryTime;
+    int parkingTime = (time(nullptr)) - entryTime;
 
     
     int reducedTime = parkingTime * 0.9;

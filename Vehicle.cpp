@@ -34,7 +34,7 @@ time_t Vehicle :: getET() {
 
 int Vehicle :: getParkingDuration (){
 
-    time_t entryTime = getET();
+    int entryTime = getET();
     time_t parkingTime = (time(nullptr)) - entryTime;
     // cout << "entry time: " << entryTime << endl;
     // cout << "parking time: " << parkingTime << " seconds" << endl;

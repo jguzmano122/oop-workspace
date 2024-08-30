@@ -30,7 +30,7 @@ int n_motorbikes;
         cin >> n_motorbikes;
         totalVeh = totalVeh + n_motorbikes;
             
-        cout << "total vehicles to park: "<< totalVeh << endl;
+        //cout << "total vehicles to park: "<< totalVeh << endl;
 
     Vehicle** arrayVehicles = new Vehicle *[totalVeh];
 

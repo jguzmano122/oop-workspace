@@ -9,7 +9,7 @@ using namespace std;
 int Motorbike :: getParkingDuration (){
 
     time_t entryTime = getET();
-    time_t parkingTime = (time(nullptr)) - entryTime;
+    int parkingTime = (time(nullptr)) - entryTime;
 
     int reducedTime = parkingTime * 0.85;
 

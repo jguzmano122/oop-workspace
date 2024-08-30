@@ -9,7 +9,7 @@ using namespace std;
 int Bus :: getParkingDuration ()
 {
     time_t entryTime = getET();
-    time_t parkingTime = (time(nullptr)) - entryTime;
+    int parkingTime = (time(nullptr)) - entryTime;
 
     int reducedTime = parkingTime * 0.75;
 
@@ -17,6 +17,6 @@ int Bus :: getParkingDuration ()
     // cout << "entry time: " << entryTime << endl;
     // cout << "parking time: " << parkingTime << " seconds" << endl;
     //cout << "Bus reduced time (25%): " << reducedTime << " seconds" << endl;
-    cout << "Bus parking duration: " << parkingTime <<  "seconds" << endl;
-    return parkingTime;    
+    cout << "Bus parking duration: " << reducedTime <<  " seconds" << endl;
+    return reducedTime;    
 }    
