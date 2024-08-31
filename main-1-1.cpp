@@ -37,14 +37,14 @@ int n_motorbikes;
       for (int i = 0; i < n_cars; i ++){
 
         arrayVehicles[i] = new Car();
-        sleep(3);
+        // sleep(5);
         arrayVehicles[i] -> getParkingDuration();
       }
        
       for (int i = n_cars; i < n_cars + n_buses; i++){
 
         arrayVehicles[i] = new Bus();
-        sleep(4);
+        // sleep(5);
         arrayVehicles[i] -> getParkingDuration();
 
       } 
@@ -52,9 +52,11 @@ int n_motorbikes;
       for (int i = n_cars + n_buses; i < totalVeh; i++){
 
         arrayVehicles[i] = new Motorbike();
-        sleep(2);
+        // sleep(5);
         arrayVehicles[i] -> getParkingDuration();
 
       } 
+
+    delete [] arrayVehicles; 
     return 0;
 }

@@ -5,11 +5,14 @@
 
 using namespace std;
 
-    // 1) 
-Vehicle :: Vehicle () {
+    // 1) Constuctotrs definition
+Vehicle :: Vehicle () { // 'Vehicle' is the class 
         
         int v_ID = 0; 
         ID = v_ID;
+
+        cout << "please enter Vehicle's ID: " << endl;
+        cin >> v_ID;
 
         timeOfEntry = (time(nullptr));
         char timeString[26];

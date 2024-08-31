@@ -3,6 +3,7 @@
 #include <ctime>
 #include "Vehicle.h"
 #include "Car.h"
+#include <chrono>
 
 using namespace std;
 
@@ -11,8 +12,7 @@ int Car :: getParkingDuration () {
 
     time_t entryTime = getET();
     int parkingTime = (time(nullptr)) - entryTime;
-
-    
+ 
     int reducedTime = parkingTime * 0.9;
 
 
