@@ -8,11 +8,13 @@ using namespace std;
 Appliance :: Appliance () {
     powerRating = 0;
     isOn = false;
+    // cout<< "D Constructor for Appliance is run";
 }
 
 Appliance :: Appliance (int powerR) {
     powerRating = powerR;
     isOn = false;
+    // cout<< "P Constructor for Appliance is run";
 }
 
 void Appliance :: set_isOn (bool status) {

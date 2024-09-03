@@ -8,15 +8,14 @@ using namespace std;
     // 1) Definition of default Constructor
 Fridge :: Fridge () : Appliance() {
 
+// ** DO NOT DECLARE / DEFINE INHERITED DATA MEMBERS !! **
     // powerRating = 0; // can also use inherited Appliance () default Constructor 
     // isOn = false;
     volume = 0.0;
 
 } 
 
-Fridge :: Fridge(int powerR, double vol) {
-
-    powerRating = powerR;
+Fridge :: Fridge(int powerR, double vol) : Appliance(powerR) {
     volume = vol;
 
 }
