@@ -14,8 +14,8 @@ AirVehicle :: AirVehicle () {
 AirVehicle :: AirVehicle (int w_AV) {
 
     weight = w_AV; // the weight of the AirVehicle
-    float fuel = 100;     // fuel percentage, initially 100%
-    int numberOfFlights = 0;    // initially 0
+    fuel = 100;     // fuel percentage, initially 100%
+    numberOfFlights = 0;    // initially 0
 
 }
 
