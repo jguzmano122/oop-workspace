@@ -19,20 +19,23 @@ class Appliance {
         // 3.1) default Constructor to set power rating to '0' and 'isOn' to false
         Appliance (); 
 
-        // 3.2 constructor to create an Appliance with 'power rating'        
+        // 3.2 constructor to create an Appliance with 'power rating' ** also DEFINE other data members  
         Appliance (int powerRating);
 
     // 4) methods / functions
-        
-
+        // setters
         void set_powerRating(int powerR);
         void set_isOn(bool status);
 
+        // getters
         int get_powerRating();
         bool get_isOn();
 
+        // function
         void turnOn();
         void turnOff();
+
+        // 
         virtual double getPowerConsumption (); 
         
 

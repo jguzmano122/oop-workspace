@@ -10,6 +10,8 @@ class Fridge : public Appliance {
         // 1.1) Private
     private: 
         double volume; // volume in litres
+        
+        //** DO NOT declare inherited data members
         // int powerRating;
         // bool isOn;
         
