@@ -1,13 +1,13 @@
-// #include <streamio>
+#include <iostream>
 #include "AirVehicle.h"
 
 using namespace std;
 
 AirVehicle :: AirVehicle () {
 
-    int weight = 0; // the weight of the AirVehicle
-    float fuel = 100;     // fuel percentage, initially 100%
-    int numberOfFlights = 0;    // initially 0
+    weight = 0; // the weight of the AirVehicle
+    fuel = 100;     // fuel percentage, initially 100%
+    numberOfFlights = 0;    // initially 0
 
 }
 
